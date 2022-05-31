@@ -14,7 +14,7 @@ python3 -m http.server
 3. Browse
 http://localhost:8000/
 
-## Expected ouput
+## Expected output
 ```
 1. Some text with param ABC. Du texte avec paramètre ABC.
 2. Some text with param CDE. Du texte avec paramètre CDE.
@@ -22,7 +22,7 @@ http://localhost:8000/
 4. Some text with param 456. Du texte avec paramètre 456.
 ```
 
-## Actual unexpected ouput
+## Actual unexpected output
 ```
 1. Some text with param ABC. Du texte avec paramètre 456.
 2. Some text with param CDE. Du texte avec paramètre 456.
